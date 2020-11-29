@@ -97,7 +97,7 @@ $(document).ready(function () {
         },
         "repulse": {
           "distance": 400,
-          "duration": 0.4
+          "duration": 0.1
         },
         "push": {
           "particles_nb": 4
@@ -128,32 +128,34 @@ $(document).ready(function () {
     sSalam = checkTime(sSalam);
     if (hSalam < 4) {
       ucapanSalam = "Good Night Sayang"
-      kata1 = "Jangan tidur terlalu malam";
-      kata2 = "";
-      kata3 = "Semoga mimpi indah, Nite bby! 🥺❤";
+      kata1 = "Awas kalo masih melek";
+      kata2 = "Semoga mimpi indah";
+      kata3 = "Nite bby! ❤";
     } else {
-      if (hSalam < 11) {
-        ucapanSalam = "Good Morning Sayang"
+      if (hSalam < 9) {
+        ucapanSalam = "Good Morning Sayangku"
         kata1 = "Jangan lupa sarapan";
-        kata2 = "Semangat ya kuliah daringnyaa!!";
+        kata2 = "Semangat yaa buat kuliah daringnya!!";
         kata3 = "Semoga harimu menyenangkan ^_^";
       } else {
-        if (hSalam < 15) {
+        if (hSalam < 14) {
           ucapanSalam = "Selamat Siang Sayang"
           kata1 = "Jangan lupa makan siang";
-          kata2 = "";
-          kata3 = "Jangan lupa shalat dzuhur yaa";
+          kata2 = "Makan yang banyakkk";
+          kata3 = "Biar tetap semangat menjalani hari ini";
         } else {
           if (hSalam < 18) {
             ucapanSalam = "Selamat Sore Sayang"
-            kata1 = "Jangan lupa mandi hehe";
-            kata2 = "";
-            kata3 = "Jangan lupa shalat ashar yaa.. Eh ya pasti ingat lah wkwk";
+            kata1 = "Sudah waktunya istirahat nih";
+            kata2 = "Kuharap kamu nggak kecapekan yah";
+            kata3 = "Take care dimanapun kamu berada! 🤗";
           } else {
+            if (hSalam < 24) {
               ucapanSalam = "Good Night Sayang"
-              kata1 = "Jangan tidur larut malam";
-              kata2 = "";
-              kata3 = "Semoga mimpi indah, Nite! ❤";
+              kata1 = "Istirahat yang cukup";
+              kata2 = "Jangan tidur larut malam";
+              kata3 = "Janji lho yaa! ❤";
+            }
           }
         }
       }
