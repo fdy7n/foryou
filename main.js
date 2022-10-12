@@ -132,29 +132,29 @@ $(document).ready(function () {
       kata2 = "Semoga mimpi indah";
       kata3 = "Nite bby! ❤";
     } else {
-      if (hSalam < 9) {
-        ucapanSalam = "Good Morning Sayangku"
-        kata1 = "Jangan lupa sarapan";
-        kata2 = "Semangat yaa buat kuliah daringnya!!";
-        kata3 = "Semoga harimu menyenangkan ^_^";
+      if (hSalam < 10) {
+        ucapanSalam = "Morn Sayangku~"
+        kata1 = "Jgn lupa sarapan yh";
+        kata2 = "Smgt yh buat kegiatan today";
+        kata3 = "Smg harimu menyenangkan, ehe!";
       } else {
         if (hSalam < 14) {
-          ucapanSalam = "Selamat Siang Sayang"
-          kata1 = "Jangan lupa makan siang";
-          kata2 = "Makan yang banyakkk";
-          kata3 = "Biar tetap semangat menjalani hari ini";
+          ucapanSalam = "Selamat Siang Sayangkohh"
+          kata1 = "Jgn lupa mkn siang";
+          kata2 = "Makan yang banyakkk yh";
+          kata3 = "Biar ttp smgt meneruskan ½ hari ini";
         } else {
           if (hSalam < 18) {
-            ucapanSalam = "Selamat Sore Sayang"
-            kata1 = "Sudah waktunya istirahat nih";
-            kata2 = "Kuharap kamu nggak kecapekan yah";
-            kata3 = "Take care dimanapun kamu berada! 🤗";
+            ucapanSalam = "Selamat Sore y Beb"
+            kata1 = "Sdh waktunya rehat n beberes nih";
+            kata2 = "Kuharap km gk kecapekan yh";
+            kata3 = "Take care dimanapun km berada! 🤗";
           } else {
             if (hSalam < 24) {
-              ucapanSalam = "Good Night Sayang"
-              kata1 = "Istirahat yang cukup";
-              kata2 = "Jangan tidur larut malam";
-              kata3 = "Janji lho yaa! ❤";
+              ucapanSalam = "Malem Sayangkyu!"
+              kata1 = "Tidur yg cukup, 8 jam lah y";
+              kata2 = "Jangan terlalu larut malam";
+              kata3 = "Janji lho yh, Nite! ❤";
             }
           }
         }
